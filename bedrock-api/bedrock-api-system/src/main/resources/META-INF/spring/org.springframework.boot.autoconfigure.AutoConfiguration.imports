@@ -1,0 +1,3 @@
+com.bedrock.system.api.factory.RemoteUserFallbackFactory
+com.bedrock.system.api.factory.RemoteLogFallbackFactory
+com.bedrock.system.api.factory.RemoteFileFallbackFactory

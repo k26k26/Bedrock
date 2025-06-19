@@ -1,0 +1,15 @@
+# 基础镜像
+FROM nginx
+# author
+MAINTAINER bedrock
+
+# 挂载目录
+VOLUME /home/bedrock/projects/bedrock-ui
+# 创建目录
+RUN mkdir -p /home/bedrock/projects/bedrock-ui
+# 指定路径
+WORKDIR /home/bedrock/projects/bedrock-ui
+# 复制conf文件到路径
+COPY ./conf/nginx.conf /etc/nginx/nginx.conf
+# 复制html文件到路径
+COPY ./html/dist /home/bedrock/projects/bedrock-ui

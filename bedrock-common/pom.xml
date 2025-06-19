@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.bedrock</groupId>
+        <artifactId>bedrock</artifactId>
+        <version>3.6.6</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>bedrock-common-log</module>
+        <module>bedrock-common-core</module>
+        <module>bedrock-common-redis</module>
+        <module>bedrock-common-seata</module>
+        <module>bedrock-common-swagger</module>
+        <module>bedrock-common-security</module>
+        <module>bedrock-common-sensitive</module>
+        <module>bedrock-common-datascope</module>
+        <module>bedrock-common-datasource</module>
+    </modules>
+
+    <artifactId>bedrock-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        bedrock-common通用模块
+    </description>
+
+</project>

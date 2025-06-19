@@ -1,0 +1,5 @@
+com.bedrock.common.security.config.WebMvcConfig
+com.bedrock.common.security.service.TokenService
+com.bedrock.common.security.aspect.PreAuthorizeAspect
+com.bedrock.common.security.aspect.InnerAuthAspect
+com.bedrock.common.security.handler.GlobalExceptionHandler

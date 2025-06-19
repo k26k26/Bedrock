@@ -1,0 +1,2 @@
+com.bedrock.common.log.service.AsyncLogService
+com.bedrock.common.log.aspect.LogAspect
